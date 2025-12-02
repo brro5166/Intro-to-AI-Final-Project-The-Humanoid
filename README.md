@@ -8,3 +8,5 @@ I’m using a Proximal Policy Optimization (PPO) model, which is a reinforcement
 2. A PDF export of the notebook showing the full 1.5 million timestep run and its results (the other attempts only differ by the number of time steps)
 3. A written report that with a project overview, approach, results, interpretation, and conclusion
 4. A file with YouTube links showing four example humanoid runs at different training durations
+
+Essentially the humanoid recieves rewards for moving forward, balance, and overall stability. Failure occurs if the humanoid falls or runs out of time.
